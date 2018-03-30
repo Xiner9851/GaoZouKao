@@ -1,12 +1,9 @@
 package com.example.myapplication;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
 
 import com.wuxiaolong.pullloadmorerecyclerview.PullLoadMoreRecyclerView;
@@ -21,6 +18,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
+    //2018.3.30.xiner
     List<BeanLai.ResultBean.DataBean> data=new ArrayList<>();
     private PullLoadMoreRecyclerView pullload;
     private Handler han=new Handler(){
